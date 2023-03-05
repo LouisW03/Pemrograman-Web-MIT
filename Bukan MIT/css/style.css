@@ -1,0 +1,87 @@
+.nav-link {
+    color: #000000;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.nav-link:hover {
+    color: #000000;
+  }
+.nav-item {
+    position: relative;
+  }
+.nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #902958;
+    width: 0%;
+    content: "";
+    height: 2px;
+    transition: all 0.25s;
+  }
+  
+  .nav-item:hover::after {
+    width: 100%;
+  }
+
+  /* Sidebar */
+body {
+  background-color: #faf6f0;
+}
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 400px;
+  }
+}
+
+.navbar{
+  box-shadow: 0 1px 1px 0 rgb(192, 192, 192)
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0; /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 480px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.form-control {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.border {
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: black;
+  border-right-color: black;
+  border-bottom-color: black;
+  border-left-color: black;
+}

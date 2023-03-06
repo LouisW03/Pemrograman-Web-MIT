@@ -1,3 +1,13 @@
+.navbar{
+  height: 85px;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6em; /* or any other value you want */
+}
+
 .nav-link {
     color: #000000;
     font-size: 1em;
@@ -71,4 +81,45 @@ h6{
   font-weight: bold;
   font-size: 1.1em;
 }
+
+.row {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.nav-link {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.btn-primary:hover {
+  background-color: #902958;
+  border-color: #902958;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: #902958;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  border-radius: 0;
+  padding-top: 0%;
+  padding-right: 0%;
+  padding-bottom: 0%;
+  padding-left: 1%;
+  margin-top: 20px;
+  margin-right: 305px;
+  
+}
+
+a {
+  color: #000000;
+  margin-right: 2px;
+}
+
+a:hover {
+  color: #902958;
+}
+
 

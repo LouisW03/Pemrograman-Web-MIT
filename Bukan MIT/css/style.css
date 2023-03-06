@@ -38,7 +38,7 @@
 
   /* Sidebar */
 body {
-  background-color: #faf6f0;
+  background-color: #e1ffe7;
 }
 @media (min-width: 991.98px) {
   main {
@@ -120,6 +120,7 @@ a {
 
 a:hover {
   color: #902958;
+  text-decoration: none;
 }
 
 

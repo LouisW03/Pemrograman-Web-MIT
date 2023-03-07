@@ -2,10 +2,9 @@
   height: 85px;
 }
 .navbar-nav {
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6em; /* or any other value you want */
+  padding: 6em;
 }
 
 .nav-link {
@@ -41,11 +40,6 @@ body {
   background-color: #e1ffe7;
   overflow-x: hidden;
 }
-@media (min-width: 991.98px) {
-  main {
-    margin-left: 400px;
-  }
-}
 
 .navbar{
   box-shadow: 0 1px 1px 0 rgb(192, 192, 192)
@@ -60,12 +54,6 @@ body {
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
   width: 480px;
   z-index: 600;
-}
-
-@media (max-width: 991.98px) {
-  .sidebar {
-    width: 100%;
-  }
 }
 
 .sidebar-sticky {
@@ -124,20 +112,25 @@ a:hover {
   text-decoration: none;
 }
 
+.card {
+  border: 0px;
+  margin-bottom: 2rem;
+}
+
 .card-title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8em;
   color: #ffffff;
   margin-top: 5px;
-  margin-left: 30px;
-  margin-right: 40px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
-.card-subtitle{
+.card-text{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.8em;
+  font-size: 1em;
   color: #ffffff;
   margin-top: 5px;
-  margin-left: 30px;
-  margin-right: 40px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
